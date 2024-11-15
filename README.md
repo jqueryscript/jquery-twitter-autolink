@@ -1,6 +1,6 @@
 # jquery-twitter-autolink
 
-This plugin automatically creates links for URLs, email addresses, @-mentions, and hashtags in embedded tweets.
+This plugin automatically creates links for URLs, email addresses, @mentions, and #hashtags in embedded tweets.
 
 ## Features
 
