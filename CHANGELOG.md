@@ -1,6 +1,6 @@
 ## Changelog
 
-### v1.0.1 - Nov 14, 2024
+### v2.0 - Nov 14, 2024
 
   - Update & bugfix
 
