@@ -10,8 +10,8 @@
 */
 (function($) {
   $.fn.twitter_autolink_constants = {
-    TWITTER_BASE_URL: 'http://twitter.com/',
-    TWITTER_SEARCH_URL: 'http://twitter.com/search/'
+    TWITTER_BASE_URL: 'https://x.com/',
+    TWITTER_SEARCH_URL: 'http://x.com/search/'
   }
   $.fn.twitter_autolink_regex_map = new Array(
     {
