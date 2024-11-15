@@ -1,5 +1,5 @@
 /*
-  jQuery Twitter Autolink - v1.0
+  jQuery Twitter Autolink - v2.0
   
   Automatically creates links for URLs, email addresses, @-mentions, and hashtags in embedded tweets.
   
