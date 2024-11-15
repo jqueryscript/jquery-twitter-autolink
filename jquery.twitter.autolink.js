@@ -5,13 +5,13 @@
   
   Usage: $(<tweet_element>).twitter_autolink();
   
-  Copyright (c) 2013 Graham Swan
+  Copyright (c) 2013 Graham Swan. Modified By jQueryScript.Net
   Licensed under the MIT license - https://github.com/thinkswan/jquery-twitter-autolink/blob/master/LICENSE
 */
 (function($) {
   $.fn.twitter_autolink_constants = {
     TWITTER_BASE_URL: 'https://x.com/',
-    TWITTER_SEARCH_URL: 'http://x.com/search/'
+    TWITTER_SEARCH_URL: 'http://x.com/search?q='
   }
   $.fn.twitter_autolink_regex_map = new Array(
     {
@@ -28,7 +28,7 @@
     },
     {
       're': /(^|\s)#(\w+)/g, // Hashtags
-      'replace': '$1<a href="' + $.fn.twitter_autolink_constants.TWITTER_SEARCH_URL + '%23$2">#$2</a>'
+      'replace': '$1<a href="' + $.fn.twitter_autolink_constants.TWITTER_SEARCH_URL + '$2">#$2</a>'
     }
   );
   
